@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+
+:root {
+	/* Backgrounds */
+	--bg-primary: #f5f5f5;
+	--bg-secondary: white;
+
+	/* Text */
+	--text-primary: black;
+	--text-secondary: white;
+	--text-accent: #706a7e;
+	--text-muted: #808080;
+
+	/* Accents */
+	--accent-gradient-from: #6366f1;
+	--accent-gradient-to: #8b5cf6;
+	--accent-primary: #6366f1;
+	--accent-secondary: #8b5cf6;
+
+	/* Rating */
+	--rating-star: #fbbf24;
+	--rating-star-empty: #4a4a4a;
+
+	/* Borders */
+	--border-color: #333333;
+	--border-hover: #444444;
+
+	/* Effects */
+	--blur-glass: blur(10px);
+	--shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+	--shadow-md: 0 4px 16px rgba(0, 0, 0, 0.4);
+	--shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.5);
+
+	/* Hover states */
+	--hover-overlay: rgba(255, 255, 255, 0.05);
+	--active-overlay: rgba(255, 255, 255, 0.1);
+
+	/* Fonts */
+	--font: "Segoe UI", sans-serif;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	font-family: var(--font);
+}
