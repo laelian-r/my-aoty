@@ -12,10 +12,14 @@ export default function Header() {
 				<nav>
 					<ul>
 						<li>
-							<Buttons href="/login" text="Sign in" />
+							<Buttons href="/login" text="Connexion" />
 						</li>
 						<li>
-							<Buttons className="sign-up" href="/register" text="Sign up" />
+							<Buttons
+								className="sign-up"
+								href="/register"
+								text="Inscription"
+							/>
 						</li>
 					</ul>
 				</nav>

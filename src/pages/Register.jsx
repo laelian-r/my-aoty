@@ -7,10 +7,10 @@ export default function Register() {
 		<>
 			<div className="auth-container">
 				<form action="/">
-					<h2>Register</h2>
+					<h2>Inscription</h2>
 
 					<div className="block-input">
-						<label htmlFor="username">Username :</label>
+						<label htmlFor="username">Pseudo :</label>
 						<Buttons
 							type="text"
 							id="username"
@@ -30,7 +30,7 @@ export default function Register() {
 					</div>
 
 					<div className="block-input">
-						<label htmlFor="password">Password :</label>
+						<label htmlFor="password">Mot de passe :</label>
 						<Buttons
 							type="password"
 							id="password"
@@ -39,7 +39,7 @@ export default function Register() {
 						/>
 					</div>
 
-					<Buttons type="submit" id="submit" value="Sign up" />
+					<Buttons type="submit" id="submit" value="S'inscrire" />
 				</form>
 			</div>
 		</>

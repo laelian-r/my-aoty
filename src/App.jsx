@@ -6,16 +6,20 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
 
+import { Authentification } from "./hooks/useAuth";
+
 export default function App() {
 	return (
-		<BrowserRouter>
-			<Layout>
-				<Routes>
-					<Route index element={<Home />} />
-					<Route path="/login" element={<Login />} />
-					<Route path="/register" element={<Register />} />
-				</Routes>
-			</Layout>
-		</BrowserRouter>
+		<Authentification>
+			<BrowserRouter>
+				<Layout>
+					<Routes>
+						<Route path="/home/:homeId" element={<Home />} />
+						<Route path="/login" element={<Login />} />
+						<Route path="/register" element={<Register />} />
+					</Routes>
+				</Layout>
+			</BrowserRouter>
+		</Authentification>
 	);
 }

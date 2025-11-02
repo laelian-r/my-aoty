@@ -1,6 +1,6 @@
 body {
 	/* background-color: var(--bg-primary); */
-	background-image: url("https://www.metalzone.fr/wp-content/uploads/2021/07/albums-rock-2021.jpg");
+	/* background-image: url("https://www.metalzone.fr/wp-content/uploads/2021/07/albums-rock-2021.jpg"); */
 	background-size: cover;
 	background-position: center;
 	color: var(--text-primary);
@@ -11,6 +11,7 @@ main {
 	height: 100vh;
 	overflow-y: auto;
 	backdrop-filter: var(--blur-glass);
+	padding: 2rem;
 }
 
 /* .add-album-btn {

@@ -7,5 +7,24 @@ section {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
-	margin: 2rem;
+}
+
+.add {
+	margin-top: 2rem;
+	padding: 0.7rem 1rem;
+	background: linear-gradient(
+		135deg,
+		var(--accent-gradient-from),
+		var(--accent-gradient-to)
+	);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 600;
+	transition: all 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
 }

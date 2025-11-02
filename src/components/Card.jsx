@@ -7,10 +7,27 @@ export default function Card({ title, nbrTracks }) {
 		<>
 			<article>
 				<h2>{title}</h2>
-				<p>{nbrTracks} projects</p>
+				<p>{nbrTracks} projets</p>
 				<footer>
-					<Buttons className="get" href="/" text="Voir" />
-					<Buttons className="delete" text="Supprimer" />
+					<Buttons
+						className="get"
+						href="/"
+						text={
+							<>
+								<i className="fa-solid fa-eye"></i>
+								Voir
+							</>
+						}
+					/>
+					<Buttons
+						className="delete"
+						text={
+							<>
+								<i className="fa-solid fa-trash" />
+								Supprimer
+							</>
+						}
+					/>
 				</footer>
 			</article>
 		</>
