@@ -7,52 +7,53 @@
 			"password": "azerty"
 		}
 	],
-	"years": [
+	"folders": [
 		{
-			"id": "1",
+			"id": 1,
+			"id_user": 1,
 			"year": 2025,
 			"projectsCount": 3,
 			"projects": [
 				{
-					"id": "1",
-					"rank": 1,
-					"title": "UTOPIA",
-					"artist": "Travis Scott",
-					"cover": "https://m.media-amazon.com/images/I/51nMgSxPQeL.jpg",
-					"spotifyUrl": "https://open.spotify.com/album/18NOKLkZETa4sWwLMIm0UZ"
+					"id": 1,
+					"title": "PRETTY DOLLCORPSE",
+					"artist": "Ptite Soeur, neophron, FEMTOGO",
+					"cover": "https://i.scdn.co/image/ab67616d0000b273eb7fe67e8dbe0c39e21154c6",
+					"spotifyUrl": "https://open.spotify.com/intl-fr/album/1dlpzZkPW3GxLgcuKMvsS2"
 				},
 				{
-					"id": "2",
-					"rank": 2,
-					"title": "SOS",
-					"artist": "SZA",
-					"cover": "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-					"spotifyUrl": "https://open.spotify.com/album/07w0rG5TETcyihsEIZR3qG"
+					"id": 2,
+					"title": "DND",
+					"artist": "Yvnnis",
+					"cover": "https://i.scdn.co/image/ab67616d0000b273c9b4c3b99ddd9f9b345b4ff1",
+					"spotifyUrl": "https://open.spotify.com/intl-fr/album/2h1wZbM8PiBWi8vu6zwCAM"
 				},
 				{
-					"id": "3",
-					"rank": 3,
-					"title": "The Rise and Fall of a Midwest Princess",
-					"artist": "Chappell Roan",
-					"cover": "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-					"spotifyUrl": "https://open.spotify.com/album/3HHNR44HHBHXO3hFLLDnvP"
+					"id": 3,
+					"title": "EXTASIA",
+					"artist": "Ino Casablanca",
+					"cover": "https://i.scdn.co/image/ab67616d00001e02565d338924c50e4a122a09b7",
+					"spotifyUrl": "https://open.spotify.com/intl-fr/album/46Kr05vkVqq1vFI7rh7WtX"
 				}
 			]
 		},
 		{
-			"id": "2",
+			"id": 2,
+			"id_user": 1,
 			"year": 2024,
 			"projectsCount": 0,
 			"projects": []
 		},
 		{
-			"id": "3",
+			"id": 3,
+			"id_user": 1,
 			"year": 2023,
 			"projectsCount": 0,
 			"projects": []
 		},
 		{
-			"id": "4",
+			"id": 4,
+			"id_user": 2,
 			"year": 2022,
 			"projectsCount": 0,
 			"projects": []

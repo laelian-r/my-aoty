@@ -1,0 +1,82 @@
+.folder-container {
+	padding: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.folder-header {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.folder-header h2 {
+	font-size: 2rem;
+	margin: 10px 0;
+}
+
+.folder-header p {
+	color: #666;
+	font-size: 1.1rem;
+}
+
+.back-button {
+	margin-bottom: 20px;
+}
+
+.projects-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.project-card {
+	background: white;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s;
+}
+
+.project-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-cover {
+	width: 100%;
+	height: 300px;
+}
+
+.project-info {
+	padding: 15px;
+}
+
+.project-info h3 {
+	margin: 0 0 5px 0;
+	font-size: 1.2rem;
+}
+
+.project-info p {
+	margin: 0 0 10px 0;
+	color: #666;
+}
+
+.spotify-link {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	color: #1db954;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+.spotify-link:hover {
+	text-decoration: underline;
+}
+
+.no-projects {
+	text-align: center;
+	color: #999;
+	font-size: 1.1rem;
+	padding: 40px;
+}

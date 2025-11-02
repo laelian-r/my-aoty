@@ -2,7 +2,7 @@ import "../styles/Card.css";
 
 import Buttons from "./Buttons";
 
-export default function Card({ title, nbrTracks }) {
+export default function Card({ id, title, nbrTracks }) {
 	return (
 		<>
 			<article>
@@ -11,7 +11,7 @@ export default function Card({ title, nbrTracks }) {
 				<footer>
 					<Buttons
 						className="get"
-						href="/"
+						href={`/folder/${id}`}
 						text={
 							<>
 								<i className="fa-solid fa-eye"></i>

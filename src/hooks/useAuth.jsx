@@ -20,10 +20,30 @@ export function Authentification({ children }) {
 		return user;
 	}
 
+	function signUpUser(username, email, password) {
+		// Validation des champs
+		if (!username || !email || !password) {
+			throw new Error("Tous les champs sont obligatoires");
+		}
+
+		if (password.length < 6) {
+			throw new Error("Le mot de passe doit contenir au moins 6 caractères");
+		}
+
+		// Créer l'utilisateur
+		const newUser = createUser(username, email, password);
+
+		// Connecter automatiquement l'utilisateur après l'inscription
+		setUser(newUser);
+		setIsUserLogin(true);
+
+		return newUser;
+	}
+
 	return (
 		<>
 			<AuthentificationContext.Provider
-				value={{ isUserLogin, user, signInUser }}
+				value={{ isUserLogin, user, signInUser, signUpUser }}
 			>
 				{children}
 			</AuthentificationContext.Provider>

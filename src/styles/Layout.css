@@ -9,7 +9,6 @@ body {
 main {
 	background-color: rgba(245, 245, 245, 0.463);
 	height: 100vh;
-	overflow-y: auto;
 	backdrop-filter: var(--blur-glass);
 	padding: 2rem;
 }
